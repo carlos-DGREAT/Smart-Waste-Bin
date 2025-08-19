@@ -296,7 +296,9 @@
     keyboard: true,
   });
 
-
+    document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
 
 
 
